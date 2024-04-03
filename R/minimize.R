@@ -105,12 +105,9 @@ minimize <- function(
     return(res)
 }
 
-
-#' @rawNamespace S3method(print, adoptrOptimizationResult)
-print.adoptrOptimizationResult <- function(x, ...) {
-    cat(design2str(x$design, TRUE), "\n")
-}
-
+setClass("adoptrOptimizationResult")
+setMethod("print", signature("adoptrOptimizationResult"),
+          function(x, ...) cat(design2str(x$design, TRUE), "\n"))
 
 
 
