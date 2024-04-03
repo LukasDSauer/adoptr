@@ -348,4 +348,8 @@ test_that("heuristical initial design works", {
         is(get_initial_design(.4, .025, .2, "one-stage", Normal(), 6L), "OneStageDesign")
     )
 
+    expect_true(
+        is(get_initial_design(.3, .025, .2, "two-stage", Binomial(.2), 5L), "TwoStageDesign")
+    )
+
 }) # end 'heuristical initial design works'
