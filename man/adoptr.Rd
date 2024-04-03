@@ -68,7 +68,7 @@ Useful links:
 
 }
 \author{
-\strong{Maintainer}: Kevin Kunzmann \email{kevin.kunzmann@boehringer-ingelheim.com} (\href{https://orcid.org/0000-0002-1140-7143}{ORCID})
+\strong{Maintainer}: Kevin Kunzmann \email{kevin.kunzmann@boehringer-ingelheim.com} (\href{https://orcid.org/0000-0002-1140-7143}{ORCID}) [copyright holder]
 
 Authors:
 \itemize{
