@@ -4,7 +4,7 @@ Title: Adaptive Optimal Two-Stage Designs
 Version: 1.0.1
 Authors@R: c(
         person("Kevin", "Kunzmann", 
-                role = c("aut", "cre"), 
+                role = c("aut", "cre", "cph"), 
                 email = "kevin.kunzmann@boehringer-ingelheim.com",
                 comment = c(ORCID = "0000-0002-1140-7143")
         ),
